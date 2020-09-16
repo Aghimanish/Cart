@@ -6,13 +6,8 @@ import * as firebase from 'firebase';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDxjmvyBA-Wej9u76Qf33tMTUVsJt5X6-g",
-  authDomain: "cart-13c56.firebaseapp.com",
-  databaseURL: "https://cart-13c56.firebaseio.com",
-  projectId: "cart-13c56",
-  storageBucket: "cart-13c56.appspot.com",
-  messagingSenderId: "417994019300",
-  appId: "1:417994019300:web:f1a437661c0865cd2477f1"
+  // add your own firebase bucket details here
+  
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
